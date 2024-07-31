@@ -1,0 +1,187 @@
+
+ .svg{
+     position: absolute;
+     bottom: 0;
+     left: 0;
+   
+     width: 100%;
+     overflow: hidden;
+     line-height: 0;
+    
+ }
+
+ .navbar .container .start {
+    
+    display: flex;
+     align-items: center;
+ }
+ .navbar .container .start i{
+    padding-right: 36px;
+    font-size: 50px;
+    color: black;
+ }
+ .navbar .container .start a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+   
+ }
+
+ .navbar .container .center{
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .navbar .container .center a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+ }
+ .navbar .container .end{
+    
+    display: flex;
+    align-items: center;
+    gap: 37px;
+ }
+ .navbar .container .end i{
+   
+    font-size: 30px;
+    color: black;
+ }
+ .img{
+  /* border: 1px solid; */
+    margin-top: 50px;
+    position: absolute;
+    z-index: 11;
+    display: inline-block;
+    text-align: center;
+
+     
+ }
+ .img img{
+   height: 100%;
+   width: 45%;
+    object-fit: cover;
+   margin-bottom: 100px;
+ }
+ .content .container .text{
+  
+    padding-left: 90px;
+ }
+ .content .container .text h1{
+  
+    font-weight: 700;
+    color: black;
+ }
+ .content .container .text p{
+    color: black;
+    padding-block: 20px;
+    font-weight: 400;
+ }
+.content .container .text h6{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.navbar .container .one{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: 99;
+}
+.navbar .container .two h1{
+    color: black;
+    font-weight: 700;
+}
+.navbar .container .two p{
+    color: black;
+    font-size: 20px;
+}
+.content-end .container{
+/* border: 1px solid; */
+position: relative;
+z-index: 99;
+/* margin-top: 150px; */
+display: flex;
+justify-content: space-between;
+ margin-top: 100px;
+
+}
+.content-end .container .satu{
+    z-index: 99;
+    color: black;
+    display: flex;
+ 
+}
+.content-end .container .satu p{
+    /* border: 1px solid; */
+    margin-top: 19px;
+    letter-spacing: 10px;
+    color: black;
+    font-weight: 500;
+}
+.content-end .container .satu .display-6{
+   padding-right: 7px;
+   font-weight: 400;
+   color: black;
+}
+.content-end .container .dua{
+    z-index: 99;
+    color: black;
+    display: flex;
+    gap: 15px;
+    margin-top: 19px;
+    
+}
+.content-end .container .dua p{
+    color: black;
+    font-weight: 500;
+
+}
+/* .custom-shape-divider-bottom-1718753720 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1718753720 svg {
+    position: relative;
+    display: block;
+    width: calc(276% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1718753720 .shape-fill {
+    fill: #FFFFFF;
+} */
+
+.custom-shape-divider-bottom-1718753771 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1718753771 svg {
+    position: relative;
+    display: block;
+    /* width: calc(182% + 1.3px); */
+    height: 830px;
+}
+
+.custom-shape-divider-bottom-1718753771 .shape-fill {
+    fill: #FFFFFF;
+}
